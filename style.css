@@ -535,9 +535,12 @@ input::placeholder{
     padding-left: 10px;
 }
 
-input:active{
-    border: none;
+input:focus, #message:focus{
+    outline: none;
+    border: 2px solid #6d6c6c;
 }
+
+
 #subject{
     margin-top: 20px;
     width: 100%;
