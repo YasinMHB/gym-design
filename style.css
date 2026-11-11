@@ -708,9 +708,17 @@ footer{
         height: 250px;
     }
 
-    #name, #email{
+    .grid{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    /* #name, #email{
         width: 150px;
         
+    } */
+    .contact-content{
+        height: 95%;
     }
 
     .contact-content button{
